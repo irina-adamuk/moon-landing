@@ -1,0 +1,39 @@
+.container-flex {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-position {
+    margin:10px;
+    padding-left:10px;
+}
+.logo-size {
+   width: 20px; 
+   height: 20px;
+}
+.background-white {
+    background-color: white;
+}
+.aline-center{
+    align-items: center;
+}
+.display-flex {
+    display: flex;
+}
+
+.content-font {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #303846;
+    font-weight: lighter;
+}
+.nav {
+display: inline-flex;
+flex-direction: row;
+
+}
+.nav-item {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
