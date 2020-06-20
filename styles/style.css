@@ -150,7 +150,7 @@
     margin-right: 15px;
 }
 
-.block-one {
+.title-block {
     background-image: url(/images/banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -159,7 +159,7 @@
     padding-top: 40px;
 }
 
-.block-one-item {
+.title-block-item {
     flex-grow: 1;
     width: 500px;
     height: 300px;
