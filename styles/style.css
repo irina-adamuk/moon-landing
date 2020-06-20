@@ -34,6 +34,27 @@
 .margin-top10 {
     margin-top: 10px;
 }
+.margin-bottom10 {
+    margin-bottom: 10px;
+}
+.margin-right50 {
+    margin-right: 50px;
+}
+.margin-right15 {
+    margin-right: 15px;
+}
+.margin-left20 {
+    margin-left: 20px;
+}
+.margin-top04 {
+margin-top: 0.4em;
+}
+.padding-top04 {
+    padding-top: 0.4em;
+}
+.p-40-60 {
+    padding: 40 60;
+}
 .logo-position {
     margin:10px;
     padding-left:10px;
@@ -64,6 +85,9 @@
 .width290 {
     max-width:290px;
 }
+.width100 {
+    width: 100px;
+}
 .h2-font {
     font-family: sans-serif;
     font-size: 25px;
@@ -74,6 +98,9 @@
 }
 .color-white {
     color: white;
+}
+.color-green {
+    color:rgb(9, 211, 172);
 }
 .fontweight-bold {
     font-weight: bold;
@@ -100,9 +127,6 @@
     width: 500px;
     height: 300px; 
 }
-.p-40-60 {
-    padding: 40 60;
-}
 .section {
     padding: 40px;
     margin-left: auto;
@@ -118,6 +142,67 @@
 .text-left {
 text-align:left;
 }
+.text-center {
+    text-align: center;
+}
 .vertical-align-top {
     vertical-align: top;
+}
+.fieldset-border {
+    border-width: 2px;
+    border-color:rgb(9, 211, 172);
+    border-style:solid;
+    padding: 10px 0px;
+    margin:20px 0px;
+}
+.form-box {
+    width: 350px;
+}
+.legend {
+    padding: 0px 10px;
+    margin-left: 20px;
+    color:rgb(9, 211, 172);
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+.select-style {
+    width: 100px;
+    height: 20px;
+}
+.input-style {
+    width: 140px;
+    height:20px
+}
+.input-border {
+    border-style: solid;
+    border-width: thin;
+}	
+.border-green {
+    border-color:rgb(9, 211, 172);
+}
+.border-grey {
+    border-color: rgb(216, 216, 216);
+}
+.border-white {
+    border-color: white;
+}
+.button {
+    height: 35px;
+    border-style: solid;
+    border-width: thin;
+    background-color: transparent ;
+}
+.link-none {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+    color: #303846;
+}
+a:hover {
+    color: #303846;
+}
+a {
+    color: #303846; 
 }
