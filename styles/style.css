@@ -73,6 +73,9 @@ margin-top: 0.4em;
 .background-grey {
     background-color: #f7f7f7;
 }
+.background-blue {
+    background-color: #303846;
+}
 .content-font {
     font-family: sans-serif;
     font-size: 16px;
@@ -205,4 +208,30 @@ a:hover {
 }
 a {
     color: #303846; 
+}
+.footer-font {
+    font-family: sans-serif;
+    color:white;
+    font-weight: lighter;
+}
+.font16 {
+    font-size: 16px;   
+}
+.font10 {
+    font-size: 10px;   
+}
+.padding-top30 {
+    margin-top: 30px;
+}
+.padding-bottom30 {
+    margin-bottom: 30px;
+}
+.margin10 {
+    margin :10px;
+}
+.margin-left10 {
+    margin-left: 10px;
+}
+.margin-left30 {
+    margin-left: 30px;
 }
