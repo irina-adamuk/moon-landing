@@ -9,10 +9,6 @@
     display: flex;
 }
 
-.grow-1 {
-    flex-grow: 1;
-}
-
 .justify-content-spacebetween {
     justify-content: space-between;
 }
@@ -23,10 +19,6 @@
 
 .justify-content-center {
     justify-content: center;
-}
-
-.justify-content-evenly {
-    justify-content: space-evenly;
 }
 
 .align-center {
@@ -40,37 +32,78 @@
 .flex-direction-column {
     flex-direction: column;
 }
-
-.margin-top10 {
-    margin-top: 10px;
-}
-
-.margin-bottom10 {
-    margin-bottom: 10px;
-}
-
-.margin-right50 {
-    margin-right: 50px;
-}
-
-.margin-right15 {
-    margin-right: 15px;
-}
-
-.margin-left20 {
-    margin-left: 20px;
+.margin-top20 {
+    margin-top: 20px;
 }
 
 .margin-top04 {
     margin-top: 0.4em;
 }
 
+.margin-top10 {
+    margin-top: 10px;
+}
+
+.margin-right50 {
+    margin-right: 50px;
+}
+
+.margin-right30 {
+    margin-right: 30px;
+}
+
+.margin-right15 {
+    margin-right: 15px;
+}
+
+.margin-bottom40 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom10 {
+    margin-bottom: 10px;
+}
+
+.margin-left30 {
+    margin-left: 30px;
+}
+
+.margin-left20 {
+    margin-left: 20px;
+}
+
+.margin-left10 {
+    margin-left: 10px;
+}
+.margin10 {
+    margin: 10px;
+}
+
+.margin-0-auto {
+    margin: 0px auto;
+}
+
+.margin-10-5 {
+    margin: 10px 5px;
+}
+.padding-top30 {
+    margin-top: 30px;
+}
+
 .padding-top04 {
     padding-top: 0.4em;
 }
-.padding5 {
-    padding: 5px;
+
+.padding40 {
+    padding: 40px;
 }
+.padding10 {
+    padding: 10px;
+}
+.padding-bottom30 {
+    margin-bottom: 30px;
+}
+
 .logo-position {
     margin: 10px;
     padding-left: 10px;
@@ -98,33 +131,32 @@
     background-color: #303846;
 }
 
-.content-font {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: #303846;
-    font-weight: lighter;
+.width1000 {
+    width: 1000px;
 }
 
-.width50 {
-    width: 50%;
+.width400 {
+    width: 440px;
 }
 
-.width290 {
-    max-width: 290px;
+.width285 {
+    width: 285px;
+}
+
+.width140 {
+    width: 140px;
 }
 
 .width100 {
     width: 100px;
 }
 
-.h2-font {
-    font-family: sans-serif;
-    font-size: 25px;
-    color: #303846;
+.width50 {
+    width: 50%;
 }
 
-.font30 {
-    font-size: 30px;
+.height200 {
+    height: 200px;
 }
 
 .color-white {
@@ -154,30 +186,15 @@
     background-image: url(/images/banner.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 300px;
+    height: 320px;
     background-position: center;
-    padding-top: 40px;
+    padding-top: 90px;
 }
 
 .title-block-item {
     flex-grow: 1;
     width: 500px;
     height: 300px;
-}
-
-.section {
-    padding: 40px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.section-block {
-    max-width: 1000px;
-    margin: 20px auto;
-}
-
-.picture {
-    height: 200px;
 }
 
 .text-left {
@@ -200,10 +217,6 @@
     margin: 20px 0px;
 }
 
-.form-box {
-    width: 350px;
-}
-
 .legend {
     padding: 0px 10px;
     margin-left: 20px;
@@ -213,15 +226,18 @@
 .border-radius-5 {
     border-radius: 5px;
 }
+.border-radius-10 {
+    border-radius: 10px;
+}
 
 .select-style {
-    width: 100px;
-    height: 20px;
+    width: 130px;
+    height: 30px;
 }
 
 .input-style {
-    width: 140px;
-    height: 20px
+    width: 190px;
+    height: 25px
 }
 
 .input-border {
@@ -264,45 +280,41 @@ a:hover {
 a {
     color: #303846;
 }
-
+.content-font {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #303846;
+    font-weight: lighter;
+}
 .footer-font {
     font-family: sans-serif;
     color: white;
     font-weight: lighter;
+}
+.h2-font {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #303846;
+}
+
+.font50 {
+    font-size: 50px;
 }
 
 .font16 {
     font-size: 16px;
 }
 
+.font20 {
+    font-size: 20px;
+}
 .font10 {
     font-size: 10px;
 }
 
-.font14 {
-    font-size: 14px;
-}
-
-.padding-top30 {
-    margin-top: 30px;
-}
-
-.padding-bottom30 {
-    margin-bottom: 30px;
-}
-
-.margin10 {
-    margin: 10px;
-}
-
-.margin-left10 {
-    margin-left: 10px;
-}
-
-.margin-left30 {
-    margin-left: 30px;
-}
-
 .sans-serif {
     font-family: sans-serif;
+}
+.line-height-2 {
+    line-height: 1.5;
 }
