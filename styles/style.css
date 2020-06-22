@@ -163,13 +163,9 @@
     color: white;
 }
 
-.color-green {
-    color: rgb(9, 211, 172);
-}
 
-.fontweight-bold {
-    font-weight: bold;
-}
+
+
 
 .nav {
     display: inline-flex;
@@ -317,4 +313,11 @@ a {
 }
 .line-height-2 {
     line-height: 1.5;
+}
+.color-green {
+    color: rgb(9, 211, 172);
+}
+
+.fontweight-bold {
+    font-weight: bold;
 }
