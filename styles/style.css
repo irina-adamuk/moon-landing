@@ -7,6 +7,7 @@
     --bor-col:rgb(216, 216, 216);
     --content-area:1000px;
 }
+
 body {
 
     font-family: sans-serif;
@@ -16,6 +17,7 @@ body {
     line-height: 1.5;
 
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -304,9 +306,11 @@ a {
 .sans-serif {
     font-family: sans-serif;
 }
+
 .line-height-2 {
     line-height: 2;
 }
+
 .color-green {
     color:var(--green);
 }
@@ -314,6 +318,7 @@ a {
 .fontweight-bold {
     font-weight: bold;
 }
+
 .btn {
     height: 35px;
     border-style: solid;
@@ -326,10 +331,12 @@ a {
     width: 140px;
     padding: 10px;
 }
+
 .btn_green{
     color:var(--green);
     border-color:var(--green);
 }
+
 .btn_white {
     color:var(--light);
     border-color:var(--light);

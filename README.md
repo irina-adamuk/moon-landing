@@ -1,2 +1,10 @@
-layout-designer-project-lvl1
-ссылка на проект: http://moon-landing.surge.sh/
+# Проект "Moon landing"
+
+Первый  учебный проект (неадаптивная верстка) в школе Хекслет
+
+## В проектке применяется:
+
+- HTML
+- CSS
+
+## Ссылка на проект: http://moon-landing.surge.sh/
